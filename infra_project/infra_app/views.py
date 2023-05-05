@@ -7,3 +7,6 @@ def index(request):
 
 def second_page(request):
     return HttpResponse('А это вторая страница!')
+
+def second_three(request):
+    return HttpResponse('А это третья страница!')
