@@ -10,4 +10,5 @@ def second_page(request):
 
 
 def second_three(request):
+    a = '&'
     return HttpResponse('А это третья страница!')
